@@ -11,11 +11,11 @@ import java.util.ArrayList;
  * each of which has a distinct location
  */
 public class Board {
-    private static ArrayList<Space> spaces = createBoard();
+    private static ArrayList<Space> spaces = createSpaces();
 
     /**  a checker board is 8 units wide
      *   a checker board is 8 units tall */
-    private static ArrayList<Space> createBoard() {
+    private static ArrayList<Space> createSpaces() {
         ArrayList<Space> spaces = new ArrayList<Space>();
         for (int rowLocation = 0; rowLocation < 8; rowLocation++) {
             for (int columnLocation = 0; columnLocation < 8; rowLocation++) {
