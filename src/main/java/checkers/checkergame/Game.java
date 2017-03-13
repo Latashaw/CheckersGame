@@ -6,6 +6,7 @@ import utils.FrontEnd;
 import java.awt.*;
 
 public final class Game {
+    
     public static Player player;
     public static Computer computerPlayer = new Computer();
 
